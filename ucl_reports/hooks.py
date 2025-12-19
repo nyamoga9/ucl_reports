@@ -5,6 +5,8 @@ app_description = "A Collection of ERP Reports"
 app_email = "techadvice@unitechconsult.com"
 app_license = "mit"
 
+# This runs automatically when you install the app on a site
+after_install = "ucl_reports.install.after_install"
 # Apps
 # ------------------
 
