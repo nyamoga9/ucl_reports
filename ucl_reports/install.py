@@ -3,8 +3,8 @@ import frappe
 MODULE_NAME = "UCL Reports"
 WORKSPACE_NAME = "UCL Reports"
 
-REPORT_AR = "UCL Aged Debtors (As Of)"
-REPORT_AP = "UCL Aged Creditors (As Of)"
+REPORT_AR = "UCL Aged Debtors"
+REPORT_AP = "UCL Aged Creditors"
 
 
 def after_install():
